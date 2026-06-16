@@ -57,6 +57,16 @@ Der weltweit eindeutige Identifikationsschlüssel für Handelsartikel
 
 ---
 
+## GTIN vs. Barcodes
+
+Note that a GTIN is the **Identifier**, not the **Data Carrier**. 
+
+What you can see here is the GTIN, encoded in an EAN-13: 
+
+![EAN-13](/images/honeyPotOneEAN.png)
+
+---
+
 ## Zusammenfassung
 
 ✅ GTIN = weltweit eindeutiger Artikelschlüssel
