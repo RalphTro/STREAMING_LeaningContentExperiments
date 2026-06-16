@@ -1,0 +1,21 @@
+<svg width="400" height="700" viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="700" fill="#f1f7ec"/>
+
+  <!-- Person -->
+  <circle cx="120" cy="140" r="30" fill="#bb8833"/>
+  <circle cx="110" cy="135" r="4" fill="#292929"/>
+  <circle cx="130" cy="135" r="4" fill="#292929"/>
+  <path d="M110 150 Q120 160 130 150" stroke="#292929" fill="none"/>
+  <rect x="95" y="170" width="50" height="90" rx="10" fill="#33cc33"/>
+  <line x1="95" y1="200" x2="70" y2="240" stroke="#33cc33" stroke-width="6"/>
+  <line x1="145" y1="200" x2="180" y2="240" stroke="#33cc33" stroke-width="6"/>
+
+  <!-- Box -->
+  <rect x="170" y="230" width="50" height="40" fill="#ff6633"/>
+
+  <!-- Truck -->
+  <rect x="200" y="260" width="140" height="60" rx="10" fill="#ff6633"/>
+  <rect x="300" y="230" width="40" height="50" rx="5" fill="#dd7733"/>
+  <circle cx="230" cy="330" r="15" fill="#292929"/>
+  <circle cx="310" cy="330" r="15" fill="#292929"/>
+</svg>

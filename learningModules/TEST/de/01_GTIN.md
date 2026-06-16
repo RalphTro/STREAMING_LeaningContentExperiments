@@ -12,16 +12,42 @@ style: |
   h2 {
     color: #F26334;
   }
+  section.split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section.split h1 {
+    width: 100%;
+  }
+  section.split .column-left {
+    flex: 1;
+  }
+  section.split .column-right {
+    flex: 0 0 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 ---
 
+<!-- _class: split -->
 # Einführung in die GTIN
+
+<div class="column-left">
 
 **Global Trade Item Number**
 Der weltweit eindeutige Identifikationsschlüssel für Handelsartikel
 
-![bg right:40%](https://www.gs1.org/sites/default/files/images/barcode.png)
-
 *GS1 Germany – Schulungsmodul 1*
+
+</div>
+<div class="column-right">
+
+![h:400](/images/logistics-person.svg)
+
+</div>
+
 
 ---
 
@@ -40,11 +66,11 @@ Der weltweit eindeutige Identifikationsschlüssel für Handelsartikel
 
 | Bestandteil          | Stellen | Beispiel     |
 |----------------------|---------|--------------|
-| GS1 Company Prefix   | 7–10    | `402345`     |
-| Artikelreferenz      | 2–5     | `67890`      |
-| Prüfziffer           | 1       | `3`          |
+| GS1 Company Prefix   | 6–12    | `4012345`     |
+| Artikelreferenz      | 0–6     | `77777`      |
+| Prüfziffer           | 1       | `5`          |
 
-**Ergebnis:** `4023456789033`
+**Ergebnis:** `402345777775`
 
 ---
 
@@ -57,13 +83,31 @@ Der weltweit eindeutige Identifikationsschlüssel für Handelsartikel
 
 ---
 
-## GTIN vs. Barcodes
+## GTIN vs. Barcode
 
-Note that a GTIN is the **Identifier**, not the **Data Carrier**. 
+Die GTIN ist der **Identifikationsschlüssel**, nicht der **Datenträger**.
 
-What you can see here is the GTIN, encoded in an EAN-13: 
+Hier sehen Sie die GTIN, kodiert in einem EAN-13-Barcode:
 
-![EAN-13](/images/honeyPotOneEAN.png)
+![h:150](/images/honeyPotOneEAN.png)
+
+---
+
+## GTIN in QR Codes Powered by GS1
+
+Ab 2028 kann die GTIN in eine Webadresse eingebettet werden – so erhalten Ihre Kunden direkten Zugang zu produktbezogenen Informationen.
+
+Am Beispiel derselben GTIN wie zuvor: Diese erscheint nun in einem sogenannten
+*GS1 Digital Link URI* und wird in einem QR-Code kodiert:
+
+![h:100](/images/honeyPotOneQR.png)
+
+Kodierter Inhalt:
+
+```
+https://id.gs1.de/01/04012345999969
+
+```
 
 ---
 
@@ -80,4 +124,4 @@ What you can see here is the GTIN, encoded in an EAN-13:
 
 **Modul 2:** Der GS1 Digital Link – vom Barcode zur URL
 
-*Fragen? → ralph.troeger@gs1.de*
+*Fragen? → streaming@example.example*"

@@ -6,7 +6,7 @@
 
 ## 🌍 Background
 
-This repository is part of the [STREAMING](https://www.2023streaming.eu/) project, which aims to strengthen African food supply chains through capacity building, knowledge sharing, and the adoption of global standards. A key enabler is high-quality, up-to-date training content that can be delivered across diverse contexts — from fully-fledged e-learning platforms to individual self-study.
+This repository is part of the [STREAMING](https://streamingproject.eu/) project, which aims to strengthen African food supply chains through capacity building, knowledge sharing, and the adoption of global standards. A key enabler is high-quality, up-to-date training content that can be delivered across diverse contexts — from fully-fledged e-learning platforms to individual self-study.
 
 Rather than locking content into proprietary formats or complex authoring tools, we take a radically simple approach: **plain Markdown files**, collaboratively maintained on GitHub, that can be transformed into multiple output formats with minimal effort.
 
