@@ -1,21 +1,20 @@
-# 
+# Useful Notes  
 
-Für Marp:
+## Visual Studio Code Extensions
 
-Marp for VS Code – Extension-ID: marp-team.marp-vscode
+### Marp for VS Code – ID: marp-team.marp-vscode
 
-Installieren → eine .md-Datei öffnen → oben rechts auf das Preview-Icon (📄🔍) klicken
-Die Vorschau zeigt Dir sofort die Slides
-
-
-Für LiaScript:
-
-LiaScript-Preview – Extension-ID: liascript.liascript-preview
-
-Installieren → .md-Datei öffnen → Ctrl+Shift+P → „LiaScript: Open Preview"
-Rendert den interaktiven Kurs direkt in VS Code
+- Install 
+- Open .md file → click on Preview icon (📄🔍) 
+- Preview displays slides 
 
 
+### Marp to Editable PPTX - ID: katsuyuzu.marp-to-editable-pptx
 
 
-💡 Tipp: Beide Extensions sind über den VS Code Marketplace installierbar – einfach den Namen in die Extensions-Suche eingeben (Ctrl+Shift+X).
+### TBD: LiaScript-Preview – ID: liascript.liascript-preview
+
+- Interesting for interactive courses 
+- Install 
+- Open .md file → Ctrl+Shift+P → „LiaScript: Open Preview"
+- Renders interactive couese directly in VSC 
