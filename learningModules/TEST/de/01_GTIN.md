@@ -44,7 +44,7 @@ Der weltweit eindeutige Identifikationsschlüssel für Handelsartikel
 </div>
 <div class="column-right">
 
-![h:400](/images/logistics-person.svg)
+![h:400](../../../images/logistics-person.svg)
 
 </div>
 
@@ -89,7 +89,7 @@ Die GTIN ist der **Identifikationsschlüssel**, nicht der **Datenträger**.
 
 Hier sehen Sie die GTIN, kodiert in einem EAN-13-Barcode:
 
-![h:150](/images/honeyPotOneEAN.png)
+![h:150](../../../images/honeyPotOneEAN.png)
 
 ---
 
@@ -100,7 +100,7 @@ Ab 2028 kann die GTIN in eine Webadresse eingebettet werden – so erhalten Ihre
 Am Beispiel derselben GTIN wie zuvor: Diese erscheint nun in einem sogenannten
 *GS1 Digital Link URI* und wird in einem QR-Code kodiert:
 
-![h:100](/images/honeyPotOneQR.png)
+![h:100](../../../images/honeyPotOneQR.png)
 
 Kodierter Inhalt:
 

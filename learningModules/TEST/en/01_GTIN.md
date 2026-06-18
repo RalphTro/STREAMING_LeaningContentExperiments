@@ -44,7 +44,7 @@ The globally unique identification key for trade items
 </div>
 <div class="column-right">
 
-![h:400](/images/logistics-person.svg)
+![h:400](../../../images/logistics-person.svg)
 
 </div>
 
@@ -88,7 +88,7 @@ Note that a GTIN is the **Identifier**, not the **Data Carrier**.
 
 Here you can see the GTIN encoded in an EAN-13 barcode:
 
-![h:150](/images/honeyPotOneEAN.png)
+![h:150](../../../images/honeyPotOneEAN.png)
 
 ---
 
@@ -99,7 +99,7 @@ From 2028, the GTIN can be embedded in a web address – giving your customers d
 Using the same GTIN as before: it now appears in what is called a
 *GS1 Digital Link URI* and is encoded into a QR Code:
 
-![h:100](/images/honeyPotOneQR.png)
+![h:100](../../../images/honeyPotOneQR.png)
 
 Encoded content:
 
